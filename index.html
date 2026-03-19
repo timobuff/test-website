@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Startseite | Rechsteiner Holzbauarbeiten GmbH</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#810e0e",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#211111",
+                        "accent-beige": "#F5F0E8",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "heading": ["Montserrat", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .font-heading { font-family: 'Montserrat', sans-serif; }
+        .font-body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-body text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Sticky Header -->
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-white/90 backdrop-blur-md px-6 lg:px-20 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1.5 rounded">
+<svg class="w-8 h-8 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="font-heading text-xl font-extrabold tracking-tight text-slate-900">Rechsteiner <span class="text-primary block text-xs uppercase tracking-[0.2em] font-bold">Holzbauarbeiten</span></h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#leistungen">Leistungen</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#referenzen">Referenzen</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#ueber-uns">Über uns</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#faq">FAQ</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#kontakt">Kontakt</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                    Offerte anfragen
+                </button>
+<button class="md:hidden text-slate-900">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative w-full h-[85vh] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-black/50 z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Detail of professional timber framing and wood construction work" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBkrUZQi4iACXYMZkvXSLG3zdDITAq6UpGG6l5nhZYAZDOqIk8-sg7OfnIldc_t0jvtaPKzgeZpP6khTybUEZz4qdFCPdbUvXB4FB8pdqr_eYw0I6JZjPzcIsxNIhuzTOPum0a9DXLTrzyJ1f3n6isQyydJ0fFDo9Hvn-Rcg-iHSGMhkvEUag34QtMFa8lhyLtCzaZSn7PkqU6AoLeHqVR7T6K8D_CMfDJ0-bQ-uhwLJ_ZZpxDEgsyQSagHV9r6vQUtN6phX5gRu5I');"></div>
+<div class="relative z-20 text-center px-4 max-w-4xl mx-auto">
+<h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6">
+                    Holzbauarbeiten mit <br/><span class="text-primary italic">Präzision</span> und Leidenschaft
+                </h1>
+<p class="text-white/90 text-lg md:text-xl mb-10 font-medium max-w-2xl mx-auto">
+                    Ihr Partner für erstklassigen Holzbau in der Schweiz. Vom traditionellen Dachstock bis zum modernen Elementbau.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-xl text-lg font-bold hover:bg-primary/90 transition-all transform hover:scale-105">
+                        Kostenlose Offerte anfragen
+                    </button>
+<button class="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-4 rounded-xl text-lg font-bold hover:bg-white/20 transition-all">
+                        Unsere Projekte
+                    </button>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="bg-white py-10 px-6 lg:px-20 border-b border-primary/5">
+<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col items-center text-center">
+<span class="text-primary font-heading text-3xl font-black">20+</span>
+<span class="text-slate-600 font-semibold text-sm uppercase tracking-wider">Jahre Erfahrung</span>
+</div>
+<div class="flex flex-col items-center text-center border-l border-slate-100">
+<span class="text-primary font-heading text-3xl font-black">100%</span>
+<span class="text-slate-600 font-semibold text-sm uppercase tracking-wider">Schweizer Holz</span>
+</div>
+<div class="flex flex-col items-center text-center border-l border-slate-100">
+<span class="text-primary font-heading text-2xl font-black uppercase">Tradition</span>
+<span class="text-slate-600 font-semibold text-sm uppercase tracking-wider">Familienbetrieb</span>
+</div>
+<div class="flex flex-col items-center text-center border-l border-slate-100">
+<span class="material-symbols-outlined text-primary text-4xl mb-1">verified</span>
+<span class="text-slate-600 font-semibold text-sm uppercase tracking-wider">Termingerecht</span>
+</div>
+</div>
+</section>
+<!-- Leistungen (Services) -->
+<section class="bg-accent-beige py-24 px-6 lg:px-20" id="leistungen">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16 text-center">
+<h2 class="font-heading text-3xl md:text-5xl font-black text-slate-900 mb-4">Unsere Leistungen</h2>
+<div class="w-24 h-1.5 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Card -->
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">architecture</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Elementbau</h3>
+<p class="text-slate-600 leading-relaxed">Massgeschneiderte Lösungen für moderne Neubauten in effizienter Holzsystembauweise.</p>
+</div>
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">roofing</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Dachstühle</h3>
+<p class="text-slate-600 leading-relaxed">Präzise Zimmermannskonstruktionen für jede Dachform, von klassisch bis komplex.</p>
+</div>
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">carpenter</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Innenausbau</h3>
+<p class="text-slate-600 leading-relaxed">Hochwertige Holzarbeiten im Innenbereich für eine natürliche und warme Wohnatmosphäre.</p>
+</div>
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">foundation</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Fassadenbau</h3>
+<p class="text-slate-600 leading-relaxed">Langlebige und ästhetische Holzfassaden, die Ihr Gebäude schützen und charakterisieren.</p>
+</div>
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">home_repair_service</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Sanierungen</h3>
+<p class="text-slate-600 leading-relaxed">Fachgerechte Erneuerung und energetische Optimierung alter Bausubstanz.</p>
+</div>
+<div class="bg-white p-10 rounded-2xl border border-primary/5 shadow-sm hover:shadow-xl transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">garage</span>
+<h3 class="font-heading text-xl font-bold mb-3 text-slate-900">Carports</h3>
+<p class="text-slate-600 leading-relaxed">Stilvolle und wetterfeste Unterstände für Ihre Fahrzeuge, harmonisch ins Umfeld integriert.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Referenzen (References Masonry-style grid) -->
+<section class="py-24 px-6 lg:px-20 bg-white" id="referenzen">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="font-heading text-3xl md:text-5xl font-black text-slate-900 mb-4">Unsere Referenzen</h2>
+<p class="text-slate-600 text-lg">Ein Auszug unserer realisierten Projekte. Wir verwandeln Holz in Lebensraum.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 group">
+                        Alle Projekte ansehen
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[250px]">
+<div class="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-2xl group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modern wooden house architecture design facade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZRYaGyKmWMEpQTokm3r2e109tAvldj49d1KU3YwVbktleCAQphqSCDA576FQ1VKDd_D_18ws6i2n-2o9VR-0XWUPN2L-7mBW7ISLFPfdCLU-4UUPcb8o3muZtgRzBmTRQP8ZsxsqVKon2fOdPc4peScO8eDz6pcLOkdVCILxFfL9bSndUnzbJhG3FHBWUZJUl7ACT6LXWV96UlwZtXIixBP3kEABHvL6DLYCpcoI53-MdBXk_BMV0erXOcOrDqdkQXdAsX5wJwBk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
+<h4 class="text-white font-heading font-bold text-xl">Modernes Einfamilienhaus</h4>
+<p class="text-white/80">Neubau in Holzsystembauweise, Zürich</p>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Details of timber roof construction interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK8cCkTyQrjRs65PFfBcN7PjukMO1fE3u-k6tYQSo65b6M81KVHzpqybIEC4trxHpBrt5BBtmawPg_biNBSbbEirT10aMkS2WrksDWncecRL0Fnk5B0dMqPRqHQQiTw6IkqVsyMZtjCD0FwzK5YViI34r2rNXBgkKST7cnAqWozYww5-EhCBqsDtkJE5fHaGnke_Ow-_tXZqt_u7o5W-NsWM1sGLOVI4m33nfjnJkg53hu26YG-M21bVczBuRaa-OyQduEJkfymDg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
+<h4 class="text-white font-heading font-bold">Dachstocksanierung</h4>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Wooden interior design staircase and walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyuMYJm7lcD_oKOhMoGTL9s1EOMXSQKe8nYV6GSVLUrozmogslSDQlgbXHjuGaGeYcff0_2802d0SXdRJA7IUEfQUBF9uMVuOnekNJjPOQoeBQFL__46FDPtirpZBWHjiUTSvr_dta72X9Kr8hfBKEIQqwvjUbgq9P5vIFrdjmOj8Kt5k9sGoG4DG5jfLEkC_wdP9Ch7AOCI4lxS3CqXpNSjmMlaIvJuOxBSIrjSNA0nnx4ZgnWrNOI7DQASybJM3-B7mpQezGglg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
+<h4 class="text-white font-heading font-bold">Innenausbau</h4>
+</div>
+</div>
+<div class="md:col-span-2 relative overflow-hidden rounded-2xl group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Exterior wooden terrace and carport structure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLYwsvcJHnagRC-DDsPH5dK-DTdeG5PN2S0-MwlaJhEh8mapTi7pFI2SVcAYXTycoc800KVR7JwbSpwlt_kAqb0J3odHkGnPsFfuIvMXOyyi2ztwQzUjITPm94guGm9cS2BIgn1k0Ii-kcLBlbQBgfl9wWhS6u1fgKUYFuvVwkN2ti_whOiHJ5nrXwOB5mWRtfBfP9Jzz4zwBVKLiEo6Pw6q3Y-RcS1sQc3V82Qw4Lz6bhLQMavEjGpgR2g44mjW1DJ5QwdOw7XJs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
+<h4 class="text-white font-heading font-bold">Carport &amp; Terrasse</h4>
+<p class="text-white/80">Massivholzkonstruktion, St. Gallen</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Über uns (About Us) -->
+<section class="py-24 px-6 lg:px-20 bg-accent-beige" id="ueber-uns">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+<div class="w-full lg:w-1/2 relative">
+<div class="absolute -top-4 -left-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
+<img class="rounded-3xl shadow-2xl relative z-10 w-full object-cover aspect-[4/3]" data-alt="Team of carpenters working in a professional workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL-OFUEhKAm6H7VGumGRLpuSkj0hGD1tByHZw6dyXer4JNyxTwPr_MgL53hygY-KeNlMdwYGh3wlTLd7wVv8rw9l_No1skHBqBLXuaXFRDmMc2-9QUP_SUDEI6HKkz9ZF6rrxkM2ule7JkThm0V-XuHOUQz7jjacf44h_iXvDBDFkTTzmsI1j-yEO3h9AAigBK1d5sHrG3E872Z1uqN3C6-2Eri8eQ3reH8yAEsxUY91E9FzDZ4NYvckbyeSaSJuu14BlpG_yHkdc"/>
+</div>
+<div class="w-full lg:w-1/2">
+<span class="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">Unsere Geschichte</span>
+<h2 class="font-heading text-3xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">Tradition trifft auf modernste Technik</h2>
+<p class="text-slate-600 text-lg leading-relaxed mb-6">
+                        Seit über 20 Jahren steht der Name Rechsteiner für Qualität im Schweizer Holzbau. Als Familienbetrieb in der zweiten Generation vereinen wir traditionelles Handwerk mit innovativen Bauweisen.
+                    </p>
+<p class="text-slate-600 text-lg leading-relaxed mb-8">
+                        Unser Ziel ist es, nachhaltige Werte aus Holz zu schaffen, die Generationen überdauern. Dabei setzen wir konsequent auf Schweizer Holz und regionale Partner.
+                    </p>
+<div class="grid grid-cols-2 gap-6 mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Meisterbetrieb</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Lehrlingsausbilder</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Eigenes Sägewerk</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">CO2 Neutral</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="bg-[#1E1E1E] py-24 px-6 lg:px-20 text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 opacity-10">
+<span class="material-symbols-outlined text-[300px]">format_quote</span>
+</div>
+<div class="max-w-7xl mx-auto relative z-10">
+<h2 class="font-heading text-3xl md:text-5xl font-black mb-16 text-center">Was unsere Kunden sagen</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white/5 p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+<div class="flex gap-1 text-yellow-400 mb-6">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="text-lg italic mb-6 text-white/80">"Hervorragende Arbeit beim Bau unseres Carports. Die Beratung war kompetent und die Ausführung absolut makellos."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">MK</div>
+<div>
+<p class="font-bold">Markus Keller</p>
+<p class="text-sm text-white/50">Privatkunde, Wil</p>
+</div>
+</div>
+</div>
+<div class="bg-white/5 p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+<div class="flex gap-1 text-yellow-400 mb-6">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="text-lg italic mb-6 text-white/80">"Ein Partner, auf den Verlass ist. Die Sanierung unseres historischen Dachstocks wurde termingerecht und mit viel Liebe zum Detail umgesetzt."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">SM</div>
+<div>
+<p class="font-bold">Sarah Meier</p>
+<p class="text-sm text-white/50">Architektin, Gossau</p>
+</div>
+</div>
+</div>
+<div class="bg-white/5 p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+<div class="flex gap-1 text-yellow-400 mb-6">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="text-lg italic mb-6 text-white/80">"Top Qualität und sehr freundliches Team. Unser Holzhaus ist genau so geworden, wie wir es uns erträumt haben."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">HB</div>
+<div>
+<p class="font-bold">Hans Baumgartner</p>
+<p class="text-sm text-white/50">Bauherr, Herisau</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 px-6 lg:px-20 bg-white" id="faq">
+<div class="max-w-3xl mx-auto">
+<h2 class="font-heading text-3xl md:text-5xl font-black text-slate-900 mb-12 text-center">Häufige Fragen</h2>
+<div class="space-y-4">
+<div class="border border-slate-200 rounded-xl overflow-hidden">
+<button class="w-full flex items-center justify-between p-6 text-left hover:bg-slate-50 transition-colors">
+<span class="font-bold text-lg">Wie lange dauert ein Hausbau in Holzsystembauweise?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+<div class="border border-slate-200 rounded-xl overflow-hidden">
+<button class="w-full flex items-center justify-between p-6 text-left hover:bg-slate-50 transition-colors">
+<span class="font-bold text-lg">Verwenden Sie ausschliesslich Schweizer Holz?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+<div class="border border-slate-200 rounded-xl overflow-hidden">
+<button class="w-full flex items-center justify-between p-6 text-left hover:bg-slate-50 transition-colors">
+<span class="font-bold text-lg">Bieten Sie auch Reparaturen an kleinen Objekten an?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+<div class="border border-slate-200 rounded-xl overflow-hidden">
+<button class="w-full flex items-center justify-between p-6 text-left hover:bg-slate-50 transition-colors">
+<span class="font-bold text-lg">Sind Besichtigungen von Referenzobjekten möglich?</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Banner -->
+<section class="py-12 px-6 lg:px-20">
+<div class="max-w-7xl mx-auto bg-primary rounded-3xl p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
+<div class="absolute top-0 left-0 w-64 h-64 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+<div class="relative z-10">
+<h2 class="font-heading text-3xl md:text-6xl font-black text-white mb-8">Bereit für Ihr Holzprojekt?</h2>
+<p class="text-white/80 text-xl mb-12 max-w-2xl mx-auto font-medium">Lassen Sie uns gemeinsam Grosses aus Holz erschaffen. Fordern Sie jetzt Ihre unverbindliche Offerte an.</p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-white text-primary px-12 py-5 rounded-2xl text-xl font-bold hover:shadow-xl hover:-translate-y-1 transition-all">
+                            Jetzt Offerte anfragen
+                        </button>
+<a class="w-full sm:w-auto flex items-center justify-center gap-3 text-white font-bold text-xl px-12 py-5 border-2 border-white/20 rounded-2xl hover:bg-white/10 transition-all" href="tel:+41711234567">
+<span class="material-symbols-outlined">call</span>
+                            +41 71 123 45 67
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#1E1E1E] text-white pt-24 pb-12 px-6 lg:px-20 relative">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-primary"></div>
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-1 lg:col-span-1">
+<div class="flex items-center gap-3 mb-8">
+<div class="bg-primary p-1 rounded">
+<svg class="w-6 h-6 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="font-heading text-lg font-extrabold tracking-tight">Rechsteiner</h2>
+</div>
+<p class="text-white/60 leading-relaxed mb-6">
+                            Ihr kompetenter Partner für Holzbau und Zimmermannsarbeiten in der Ostschweiz. Qualität, Präzision und Tradition seit 20 Jahren.
+                        </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">public</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">linked_camera</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-heading font-bold text-lg mb-8 uppercase tracking-widest text-primary">Leistungen</h4>
+<ul class="space-y-4 text-white/60">
+<li><a class="hover:text-white transition-colors" href="#">Elementbau</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Dachstühle</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Innenausbau</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Fassaden</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Sanierungen</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-heading font-bold text-lg mb-8 uppercase tracking-widest text-primary">Navigation</h4>
+<ul class="space-y-4 text-white/60">
+<li><a class="hover:text-white transition-colors" href="#">Über uns</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Referenzen</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Karriere</a></li>
+<li><a class="hover:text-white transition-colors" href="#">FAQ</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Kontakt</a></li>
+</ul>
+</div>
+<div id="kontakt">
+<h4 class="font-heading font-bold text-lg mb-8 uppercase tracking-widest text-primary">Kontakt</h4>
+<ul class="space-y-6 text-white/60">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>Holzweg 12, <br/>9000 St. Gallen, Schweiz</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">call</span>
+<span>+41 71 123 45 67</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>info@rechsteiner-holzbau.ch</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-white/40 text-sm">
+<p>© 2024 Rechsteiner Holzbauarbeiten GmbH. Alle Rechte vorbehalten.</p>
+<div class="flex gap-6">
+<a class="hover:text-white" href="#">Impressum</a>
+<a class="hover:text-white" href="#">Datenschutz</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
